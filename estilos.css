@@ -1,0 +1,383 @@
+
+.page{
+    width: 935px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #FAFAFA;
+}
+.barraSup {
+    width: 903.88px;
+    height: 54px;
+    padding-inline: 231.06px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-radius: 3px;
+    border-bottom-color: #DBDBDB;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.s{
+    width: 1px;
+    height: 22px;
+    margin-left: 11.36px;
+    background-color: #DBDBDB;
+}
+.i{
+    margin-left: 0px;
+}
+.esq{
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.a {margin-right: 25.5px;}
+.b{margin-right: 25.5px;}
+.c {margin-right: 25.5px;}
+.d{margin-right: 0px;}
+.dir {
+    position: absolute;
+    right: 216.75px;
+}
+.busca {
+    width: 215px;
+    height: 26px;
+    position: absolute;
+    left: calc(50% - 105.5px);
+    color: #979797;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #DBDBDB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+.logo {
+    margin-top: 5px;
+    width: 103px;
+    height: 29px;
+    margin-left: 10px;
+}
+ion-icon {
+    font-size: 19.25px;
+    color: #000000;
+}
+.conteudo {           /*conteudo pagina*/
+    margin: 0 215px; /*mudar nas outras versoes*/
+    display: flex;
+    position: relative;
+}
+.esquerdo {           /*conteudo esquerdo*/                      
+    margin-top: 88px;
+    width: 618px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.scroll {
+    width: 614px;
+    height: 118px;
+    margin-bottom: 24px;
+    display: flex;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #DBDBDB;
+    overflow-inline: hidden;
+    background-color: rgb(255, 255, 255);
+} 
+.barra {
+    width: max-content;
+    height: 114px;
+    margin: 2px 2px 2px 2px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    
+}
+.barra ion-icon {
+    font-size: 26px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 579px;
+    top: 46px;
+} 
+.barra ion-icon:hover {
+    font-size: 28px;
+    color: #eeeeee;
+    top: 45px;
+}
+    .str {
+    width: 66px;
+    height: 81px;
+    margin-left: 14px;
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    font-family: roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.str div {
+    width: 66px;
+    height: 66px;
+    background-image: url("/Arquivos Úteis/stories_background.jpg");
+    background-size: 66px 66px;
+    background-repeat: no-repeat;
+    background-position: initial;
+    background-color: rgb(255, 255, 255)
+}
+.str img {
+    width: 56px;
+    height: 56px;
+    margin: 5px 5px 5px 5px;
+}
+.pag {
+    width: 614px;
+    height: 749px;
+    margin-bottom: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #DBDBDB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.sup {
+    width: 580px;
+    height: 61px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.pag .sup img {
+    width: 32px;
+    height: 32px;
+}
+.inf {
+    width: 614px;
+    height: 58px;
+    padding-top: 13px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    position: relative;
+}
+.inf ion-icon {
+    margin-left: 18px;
+}
+.bookmark {
+    position: absolute;
+    right: 18px;
+}
+.inf div{
+    width: max-content;
+    position: absolute;
+    bottom: 13px;
+    display: flex;
+    align-items: center;
+}
+.inf div img {
+    width: 20px;
+    height: 20px;
+    margin-left: 17px;
+    margin-right: 5px;
+}
+.inf span {
+    font-weight: bold;
+}
+.pag img {
+    width: 612px;
+    height: 612px;
+}
+p{
+    width: 109px;
+    height: 21px;
+    margin-right: 390px;
+}
+.direito {          /*conteudo direito*/ 
+    width: 293px;
+    height: 600px;
+    margin-top: 54px;
+    margin-left: 30px;
+    position: sticky;
+    top: 0;
+}
+.nome {
+    width: 100%;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    position: absolute;
+    top: 57px;
+}
+.nome p {
+    position: absolute;
+    left: 73px;
+    top: 12px;
+}
+.destaque {color: #8E8E8E;}
+
+.sugestoes {
+    width: 100%;
+    height: max-content;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #8E8E8E;
+     position: absolute;
+    top: 137px;
+}
+.sugestoes span {
+    position: absolute;
+    right: 0px;
+    color: #262626;;
+}
+
+.cont {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 169px;
+}
+.cont div {
+    width: 100%;
+    height: 32px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.cont img {
+    height: 32px;
+    position: absolute;
+}
+.cont p {
+    width: calc(100% - 32px);
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+    position: absolute;
+    left: 43px;
+}
+.segue {
+    color: #8E8E8E;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+.seguir {
+    color: #139EF2;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    position: absolute;
+    left: 213px;
+    top: 9px;
+}
+
+p1{
+    width: 100%;
+    font-family: Roboto;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+    position: relative;
+    top: 199px;
+}
+a {
+    font-family: Roboto;
+    text-decoration: unset;
+    font-size: 11px;
+    line-height: 13px;
+    color: #C7C7C7;
+}
+
+.barraInf {
+    display: none;
+}
+@media (max-width: 935px) {
+    .barraSup{
+        width: 100%;
+        padding-inline: 0px;
+        left: 0px;
+    }
+    .page{width: 100vw;}
+    .esq{left: 21.37px;}
+    .dir{right: 18.06px;}
+    .direito{display: none;}
+}
+@media (max-width: 614px) {
+    .barraSup{
+        width: 100%;
+        padding-inline: 0px;
+        left: 0px;
+    }
+    .page{width: 100vw;}
+    .esq{left: 21.37px;}
+    .dir{right: 18.06px;}
+    .s{display: none;}
+    .busca{display: none;}
+    .logo{
+        position: absolute;
+        left: calc(50vw - 72.87px);
+    
+    }
+    .barra ion-icon{display: none;}
+    .esquerdo{margin-top: 54px;}
+    .scroll {margin-bottom: 0px;}
+    .a{display: none;}
+    .b{display: none;}
+    .c{display: none;}
+    .direito{display: none;}
+    .barraInf{
+        width: 612px;
+        height: 54px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        position: fixed;
+        bottom: 0px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-bottom-color: #DBDBDB; 
+        background-color: #FFFFFF;
+        z-index: 1;
+    }
+}
